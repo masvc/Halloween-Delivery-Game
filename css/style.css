@@ -116,3 +116,50 @@ footer {
   justify-content: center;
   display: flex;
 }
+
+
+@media (max-width: 480px) {
+  .headerbox {
+    font-size: 20px;
+  }
+
+  .ctt {
+    padding: 20px;
+    background-size: cover;
+  }
+
+  .msg {
+    font-size: 100px;
+    padding: 10px;
+    text-shadow: 5px 5px 0 gray;
+  }
+
+  .htp {
+    justify-content: space-between;
+  }
+
+  .left {
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 8px;
+    width: 220px;
+  }
+
+  .right {
+    margin: 0 20px;
+    width: 100px;
+  }
+
+  .h2t {
+    font-size: 20px;
+  }
+
+  .pt {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .thximg {
+    width: 300px;
+  }
+}
