@@ -11,6 +11,7 @@ Halloween Delivery Game
 
 デプロイしている場合は URL を記入（任意）
 https://masv.sakura.ne.jp/js_function/
+https://aamaa.jp/js_function/index.html
 
 ## ④ アプリのログイン用 ID または Password（ある場合）
 
