@@ -1,0 +1,118 @@
+* {
+  font-family: Little Devil;
+}
+
+.iconimg {
+  display: none;
+}
+
+.headerbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: dashed gray;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 20px;
+  border-top: dashed gray;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  margin: auto 10px;
+  letter-spacing: 3px;
+  font-family: Chalkboard;
+}
+
+#gohome {
+  margin: 0 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: thin;
+  border: solid;
+}
+
+#gohome:hover {
+  background-color: #ff9900;
+  color: white;
+}
+
+.ctt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-image: url(../img/back.jpg);
+  background-position: center;
+  background-size: 60%;
+}
+
+.msg {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 150px;
+  background-color: #ff9900;
+  color: white;
+  text-shadow: 10px 10px 0 gray;
+}
+
+.htp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10%;
+}
+
+.left,
+.right {
+  padding: 10px;
+  margin: 0 50px;
+  background-color: #ff9900;
+  color: white;
+  text-shadow: 1px 1px 0 gray;
+}
+
+.left {
+  background-color: #ff9900;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+.h2t {
+  font-size: 30px;
+  text-align: center;
+  padding: 0 0 5px 0;
+}
+
+.pt {
+  font-size: 15px;
+  padding: 5px 0;
+  font-family: akabara-cinderella;
+}
+
+.right {
+  background-color: #ff9900;
+  font-size: 25px;
+  border-radius: 10%;
+}
+
+.tdb {
+  border: solid;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}

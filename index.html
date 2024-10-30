@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/destyle.css" />
+    <link rel="icon" href="img/pumpkin.png" id="favicon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="thanks.js"></script>
+    <title>Halloween Delivery Game</title>
+  </head>
+  <body onload="init()">
+    <header>
+      <div class="headerbox">
+        <div class="logo">
+          <h1><a href="index.html">Halloween Delivery Game</a></h1>
+        </div>
+        <div>
+          <button id="gohome"><a href="index.html">Go HOME</a></button>
+        </div>
+      </div>
+    </header>
+    <div class="ctt">
+      <canvas id="soko" width="800" height="440"> </canvas>
+
+      <img id="pumpkin" class="iconimg" src="img/pumpkin.png" alt="" />
+      <img id="born" class="iconimg" src="img/born.png" alt="" />
+      <img id="obake" class="iconimg" src="img/obake.png" alt="" />
+      <img id="present" class="iconimg" src="img/present.png" alt="" />
+    </div>
+
+    <div class="htp">
+      <div class="left">
+        <h2 class="h2t">How to Play</h2>
+        <p class="pt">
+          キーボードの上下横ボタンを押すか、右のコントローラーでオバケを操作してください。
+        </p>
+        <p class="pt">プレゼントを友人のドクロに届けられるとクリアです。</p>
+      </div>
+      <div class="right">
+        <div class="controler">
+          <div>
+            <table>
+              <tr>
+                <td></td>
+                <td class="tdb">
+                  <button onclick="mykeydown({keyCode:38})">↑</button>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="tdb">
+                  <button onclick="mykeydown({keyCode:37})">←</button>
+                </td>
+                <td></td>
+                <td class="tdb">
+                  <button onclick="mykeydown({keyCode:39})">→</button>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="tdb">
+                  <button onclick="mykeydown({keyCode:40})">↓</button>
+                </td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>G's ACADEMY</p>
+    </footer>
+  </body>
+</html>
